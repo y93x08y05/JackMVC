@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta charset="utf-8"/>
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+
+    <meta name="viewport" content="width=600, initial-scale=1.0">
+    <title>HP 3DSonar</title>
+    <!--<link rel="stylesheet" href="css/hp/hp-piano.css"/>-->
+
+    <!--<link rel="stylesheet" href="css/hp/hp-piano-containers.css"/>-->
+    <!--<link rel="stylesheet" href="css/jquery.ajaxComboBox.css"/>-->
+    <!--<link rel="stylesheet" href="css/jquery.dataTables.css"/>-->
+    <!--<link rel="stylesheet" href="css/buttons.dataTables.min.css"/>-->
+    <!--<link rel="stylesheet" href="css/jquery.switchButton.css"/>-->
+    <!--<link rel="stylesheet" href="css/app.css?V=2"/>-->
+    <!--<link rel="stylesheet" href="css/c3.css"/>-->
+    <!--<link rel="stylesheet" href="css/sweet-alert.css"/>-->
+
+    <style>
+  	.ac_results div {
+		display: inline-block;
+		width: 70px;
+	}
+	.ac_results li label.ac_collapsed {
+		background-image: url('data:image/gif;base64,R0lGODlhFAAUALMAADMzM39/f8zMzExMTLKyspmZmWZmZuXl5f///wAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEHAAgALAAAAAAUABQAAAQuEMlJq7046827/9UAjCQwbERJEpyhGp2gCl5ABt9BHmABFCDEYcALGo/IpHITAQA7');
+		background-position: 0px -2px;
+		background-repeat: no-repeat;
+		padding-left: 22px;
+	}
+	.ac_results li label.ac_collapsible {
+		background-image: url('data:image/gif;base64,R0lGODlhFAAUALMAAJmZmaWlpdnZ2bm5ufLy8szMzLKysuXl5b+/v////wAAAAAAAAAAAAAAAAAAAAAAACH5BAEHAAkALAAAAAAUABQAAAQrMMlJq7046827T4HwTQBgHGNZIoSnqkW7vWrA0UB8q4O8n6PQaEgsGo/HCAA7');
+		background-position: 0px -2px;
+		background-repeat: no-repeat;
+		padding-left: 22px;
+	}
+	.ac_results li label {
+		cursor: pointer;
+	}
+	.ac_results li ul li {
+		padding-left: 20px;
+	}
+
+	#hp-reset-button:focus, #hp-reset-button:active {
+	    border-color: #e6e6e6;
+	}
+	.star-light{
+	    width: 35px;
+        height: 35px;
+        cursor: pointer;
+	    background: url(img/icon/star-light.png) no-repeat ;
+	    border-color: #000;
+	}
+	.star-grey{
+	    width: 35px;
+        height: 35px;
+        cursor: pointer;
+	    background: url(img/icon/star.png) no-repeat ;
+	    border-color: #000;
+	}
+    #feedback-button-image{
+	    vertical-align:top;
+	}
+
+    </style>
+</head>
+<body>
+<!--<header id="hp-banner-container" class="hp-banner hp-global">-->
+    <!--<div id="hp-main-banner" class="hp-banner hp-global">-->
+        <!--<div class="hp-header-primary" style="right: 150px;">-->
+            <!--<div id="hp-main-menu-control" class="hp-active">-->
+                <!--<div id="hp-logo"></div>-->
+                <!--<div id="hp-main-menu-labels">-->
+                    <!--<h1 id="hp-main-menu-label">HP 3D Sonar</h1>-->
+                    <!--<h2 id="hp-main-menu-sub-label"></h2>-->
+                <!--</div>-->
+                <!--<div class="hp-main-menu-carret" style="display: none;"></div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;<h2 id="hp-search-control" data-localize="search.title" style="display: none; left: 210px;">Search</h2>&ndash;&gt;-->
+            <!--<h2 id="hp-notice" style="left: 210px;"></h2>-->
+        <!--</div>-->
+
+        <!--<div id="hp-activity-notification" class="hp-summary-status">-->
+            <!--<div class="hp-status hp-active"></div>-->
+            <!--<div class="hp-message"></div>-->
+        <!--</div>-->
+
+        <!--<ol class="hp-header-secondary">-->
+            <!--<li>-->
+                <!--<div id="hp-activity-control" class="hp-banner-control" style="display:none">-->
+                    <!--<div class="hp-icon hp-activity"></div>-->
+                    <!--<div id="hp-activity-control-new-count" class="hp-count">0</div>-->
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div id="hp-session-control" class="hp-banner-control hp-tooltipped" tooltip="Session"-->
+                     <!--data-tooltip="Session">-->
+                    <!--<div class="hp-icon hp-session"></div>-->
+                    <!--<div class="hp-name"></div>-->
+                <!--</div>-->
+            <!--</li>-->
+        <!--</ol>-->
+
+        <!--<div id="hp-search-menu" style="left: 210px; right: 150px;">-->
+            <!--<header>-->
+                <!--<div id="hp-search-input">-->
+                    <!--<input tabindex="1">-->
+                <!--</div>-->
+                <!--<div id="hp-search-clear"></div>-->
+            <!--</header>-->
+            <!--<div id="hp-search-choices" style="display:none">-->
+                <!--<h2 data-localize="search.menu.suggestions">Suggestions</h2>-->
+                <!--<ol id="hp-search-suggestions">-->
+                <!--</ol>-->
+                <!--<h2 data-localize="search.menu.recent">Recent searches</h2>-->
+                <!--<ol id="hp-search-recent">-->
+                <!--</ol>-->
+                <!--<li id="hp-search-item-template" class="hp-template"></li>-->
+            <!--</div>-->
+            <!--<form id="hp-search-scope" style="display: none;">-->
+                <!--<label data-localize="search.scope.label">Scope</label>-->
+                <!--<input id="hp-search-scope-local" type="radio" name="hp-search-scope" value="local">-->
+                <!--<label for="hp-search-scope-local" data-localize="search.scope.local">Within view</label>-->
+                <!--<input id="hp-search-scope-global" type="radio" name="hp-search-scope" value="global">-->
+                <!--<label for="hp-search-scope-global" data-localize="search.scope.global">Everything</label>-->
+            <!--</form>-->
+        <!--</div>-->
+
+        <!--<div id="hp-activity-flyout" class="hp-banner-flyout">-->
+            <!--<header>-->
+                <!--<h1 data-localize="core.notify.flyout.activity">Activity</h1>-->
+            <!--</header>-->
+            <!--<div class="hp-flyout-contents">-->
+                <!--<ol id="hp-flyout-activities">-->
+                    <!--<li id="hp-flyout-activity-template" class="hp-activity hp-template">-->
+                        <!--<div class="hp-brief">-->
+                            <!--<div class="hp-status"></div>-->
+                            <!--<div class="hp-activity-message"></div>-->
+                            <!--<div class="hp-activity-source"></div>-->
+                        <!--</div>-->
+                        <!--<div class="hp-full">-->
+                            <!--<header class="hp-active">-->
+                                <!--<div class="hp-status"></div>-->
+                                <!--<div class="hp-activity-message"></div>-->
+                                <!--<a class="hp-activity-source"></a>-->
+                                <!--<span class="hp-activity-source"></span>-->
+                                <!--<div class="hp-timestamp"></div>-->
+                            <!--</header>-->
+                            <!--<div class="hp-spinner">-->
+                                <!--<div class="hp-spinner-image"></div>-->
+                            <!--</div>-->
+                            <!--<div class="hp-details-container"></div>-->
+                        <!--</div>-->
+                    <!--</li>-->
+                <!--</ol>-->
+            <!--</div>-->
+            <!--<footer>-->
+                <!--<a id="hp-flyout-all-activity" href="#/activity" style="display:none"-->
+                   <!--data-localize="core.notify.flyout.viewAll">View all activity</a>-->
+            <!--</footer>-->
+        <!--</div>-->
+
+        <!--<div id="hp-session-flyout" class="hp-banner-flyout">-->
+            <!--<a id="hp-session-user-edit" class="hp-edit" style="display: none;"></a>-->
+            <!--<div id="hp-session-user"></div>-->
+            <!--<hr>-->
+            <!--<a  href="logout.jsp" >Logout</a>-->
+        <!--</div>-->
+
+
+        <!--&lt;!&ndash;<div id="hp-session-flyout" class="hp-banner-flyout">&ndash;&gt;-->
+        <!--&lt;!&ndash;<a id="hp-session-user-edit" class="hp-edit" style="display: none;"></a>&ndash;&gt;-->
+        <!--&lt;!&ndash;<div id="hp-session-user">ramon</div>&ndash;&gt;-->
+        <!--&lt;!&ndash;<div id="hp-session-duration">&ndash;&gt;-->
+        <!--&lt;!&ndash;<span data-localize="core.shell.banner.session.duration">Logged in</span>&ndash;&gt;-->
+        <!--&lt;!&ndash;<time id="hp-session-duration-time" datetime="2016-03-07T06:05:39Z" title="2016-03-07T06:05:39Z">4 days&ndash;&gt;-->
+        <!--&lt;!&ndash;ago&ndash;&gt;-->
+        <!--&lt;!&ndash;</time>&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+        <!--&lt;!&ndash;<a id="hp-session-logout" href="#/login" data-localize="core.shell.banner.session.logout">Logout</a>&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+        <!--&lt;!&ndash; (C) Copyright 2011-2013 Hewlett-Packard Development Company, L.P.&ndash;&gt;-->
+
+        <!--<div id="hp-main-menu" class="">-->
+            <!--<ul class="hp-sections">-->
+                <!--<li class="">-->
+                    <!--<ul class="hp-section">-->
+                        <!--<li id="monitor-view-menu" class="">-->
+                            <!--<a href="#/monitor" class="hp-selected">Monitor Dashboard</a>-->
+                        <!--</li>-->
+                        <!--<li id="reporting-over-view-menu" class="">-->
+                            <!--<a href="#/reportingOverView">Reporting View</a>-->
+                        <!--</li>-->
+                        <!--<li id="subsystem-summary-view-menu" class="">-->
+                            <!--<a href="#/subsystemSummary">Subsystem Summary</a>-->
+                        <!--</li>-->
+                        <!--<li id="diagnostic-view-menu" class="">-->
+                            <!--<a href="#/diagnostic">Debug Information</a>-->
+                        <!--</li>-->
+                        <!--<li id="report-view-menu" class="">-->
+                            <!--<a href="#/report">Installed Base Information</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash; <div id="lfs-session-container">-->
+          <!--<p class="lfs-session-user-name">Ramon</p>-->
+          <!--<p class="lfs-session-last-login">Logged 4 days before</p>-->
+          <!--<p class="lfs-session-logout">Logout</p>-->
+        <!--</div> &ndash;&gt;-->
+
+    <!--</div>-->
+<!--</header>-->
+
+<!--<div id="hp-page-spinner" class="hp-spinner">-->
+    <!--<div class="hp-spinner-image"></div>-->
+    <!--<p data-localize="core.loading">Loading ...</p>-->
+<!--</div>-->
+<div align="center">
+    <p>
+        <img src="files/aiYinSiTan.jpg" align="center">
+    </p>
+</div>
+
+
+<!--<div class="hp-page hp-dashboard">-->
+    <!--<nav class="hp-sub-nav" style="height: 90px;">-->
+        <!--<div class="hp-page-label">-->
+            <!--<h1></h1>-->
+        <!--</div>-->
+        <!--<div class="lfs-search-container lfs-top-bar-compoent"-->
+             <!--style=" width:80%; visibility: hidden; min-width: 1120px;">-->
+            <!--<span class="redSpan">*</span>-->
+            <!--<input id="snSearch" class="lfs-page-prdsrl-input" type="search" placeholder="Serial Number"-->
+                   <!--style="display:none;"/>-->
+            <!--&lt;!&ndash;<span class="redSpan">*</span>&ndash;&gt;-->
+            <!--<input id="prodNumSearch" class="lfs-page-prdsrl-input" type="search" placeholder="Product Number"-->
+                   <!--style="display:none;"/>-->
+            <!--<button id="hp-reset-button" class="hp-buttonset" style="vertical-align: top; margin-top: 5px; margin-left:13px;font-size: 14px;">Reset Filters</button>-->
+            <!--<span id="connected-since" class="lfs-top-bar-compoent" style="vertical-align: top; margin-left: 15px; "></span>&nbsp;-->
+            <!--<span id="last-updated" class="lfs-top-bar-compoent"-->
+                  <!--style=" vertical-align: top; margin-left: 15px;"></span>-->
+            <!--<br>-->
+            <!--<span class="space">　</span>-->
+            <!--<input id="regionSearch" class="lfs-page-prdsrl-input" type="search" placeholder="Region"-->
+                   <!--style="display:none;"/>-->
+            <!--<input id="countrySearch1" class="lfs-page-prdsrl-input" type="search" placeholder="Country"-->
+                   <!--style="display:none;"/>-->
+            <!--<input id="resellerSearch" class="lfs-page-prdsrl-input" type="search" placeholder="Reseller"-->
+                   <!--style="display:none;"/>-->
+            <!--<input id="customerSearch" class="lfs-page-prdsrl-input" type="search" placeholder="Customer"-->
+                   <!--style="display:none;"/>-->
+            <!--<select id="lfs-common-time-frame" style="display:none;">-->
+                <!--<option value="1 day">1 day</option>-->
+                <!--<option value="3 days">3 days</option>-->
+                <!--<option selected value="1 week">1 week</option>-->
+                <!--<option value="2 weeks">2 weeks</option>-->
+                <!--<option value="1 month">1 month</option>-->
+                <!--<option value="2 months">2 months</option>-->
+                <!--<option value="custom">custom</option>-->
+            <!--</select>-->
+            <!--&lt;!&ndash;<select id="lfs-kpi-time-frame" style="display:none;">&ndash;&gt;-->
+                <!--&lt;!&ndash;<option value="1day">1 day</option>&ndash;&gt;-->
+                <!--&lt;!&ndash;<option value="3day">3 days</option>&ndash;&gt;-->
+                <!--&lt;!&ndash;<option selected value="1week">1 week</option>&ndash;&gt;-->
+                <!--&lt;!&ndash;<option value="2week">2 weeks</option>&ndash;&gt;-->
+                <!--&lt;!&ndash;<option value="1month">1 month</option>&ndash;&gt;-->
+                <!--&lt;!&ndash;<option value="2month">2 months</option>&ndash;&gt;-->
+            <!--&lt;!&ndash;</select>&ndash;&gt;-->
+        <!--</div>-->
+        <!--&lt;!&ndash; <button id="PrInsMgmt_Open" style="margin-left: 20px; margin-top: 5px">Printer Installation Management</button> &ndash;&gt;-->
+        <!--<div class="lfs-search-container lfs-top-ba-compoent"-->
+             <!--style=" width:80%; visibility: hidden; min-width: 1120px;margin-left:20px;padding-top:10px;display:none;">-->
+            <!--&lt;!&ndash; <input id="seriesSearch" class="lfs-page-prdsrl-input" type="search" placeholder="Series"width:120px;text-align:center;-->
+                    <!--style="display:none;"/>  &ndash;&gt;-->
+            <!--<select id="report-series" style="display:none;width:120px;text-align:center;">-->
+                <!--<option value="Printer">Printer</option>-->
+                <!--<option value="Processing Station">Processing Station</option>-->
+                <!--<option selected value="All">All</option>-->
+            <!--</select>-->
+            <!--<select id="report-time-frame" style="margin-left:20px;display:none;">-->
+                <!--<option value="1day">1 day</option>-->
+                <!--<option value="3day">3 days</option>-->
+                <!--<option value="1week">1 week</option>-->
+                <!--<option value="2week">2 weeks</option>-->
+                <!--<option selected value="1month">1 month</option>-->
+                <!--<option value="2month">2 months</option>-->
+                <!--<option value="custom">custom</option>-->
+            <!--</select>-->
+        <!--</div>-->
+    <!--</nav>-->
+<!--</div>-->
+
+
+<!--<div id="hp-page-container" class="hp-menu-boundary hp-active" style="top: 150px;">-->
+    <!--<div id="welcomeDiv">-->
+        <!--<div id="welcomeContent" style="text-align: center; margin-top:100px;"></div>-->
+    <!--</div>-->
+    <!--<div class="hp-spinner app-onload-spinner">-->
+        <!--<div class="hp-spinner-image"></div>-->
+        <!--<p>Loading ...</p>-->
+    <!--</div>-->
+<!--</div>-->
+<!--<div style="position:absolute;z-index:9999;margin-top:19%;right:0;padding-right:8px">-->
+    <!--<div id="feedback-button">-->
+        <!--<image src="img/icon/feedback0.png" id="feedback-button-image"></image></div>-->
+<!--</div>-->
+<!--<div style="display:none;position:absolute;z-index:9999;bottom:0;right:0;padding-right:8px;padding-bottom:8px">-->
+    <!--<div id="message-button">-->
+        <!--<image style="height:50px" src="img/icon/chat.png"></image></div>-->
+<!--</div>-->
+<!--<script src="js/lib/jquery.min.js?ver=1.0"></script>-->
+<!--<script src="js/lib/require.js?ver=261" data-main="js/app.js"></script>-->
+</body>
