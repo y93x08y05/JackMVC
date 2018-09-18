@@ -48,13 +48,16 @@
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.3.13.v20161014</version>
+                <version>9.4.12.v20180830</version>
                 <configuration>
+                    <httpConnector>
+                        <port>8080</port>
+                    </httpConnector>
                     <webAppSourceDirectory>WebContent</webAppSourceDirectory>
                     <scanIntervalSeconds>10</scanIntervalSeconds>
-                    <webApp>
-                        <contextPath>/JackMVC</contextPath>
-                    </webApp>
+                    <webAppConfig>
+                        <contextPath>/${project.artifactId}</contextPath>
+                    </webAppConfig>
                 </configuration>
             </plugin>
         </plugins>
@@ -135,6 +138,11 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${org.springframework.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
