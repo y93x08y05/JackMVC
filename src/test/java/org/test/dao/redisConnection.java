@@ -1,4 +1,4 @@
-package DAO;
+package org.test.dao;
 
 import redis.clients.jedis.Jedis;
 

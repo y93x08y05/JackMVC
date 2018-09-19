@@ -2,20 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b81fcfb-e8d5-45b4-9ffe-003b5650fe2f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/pages/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/pages/nopage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jstl_jstl_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_web_jstl_impl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/pages/loginForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/pages/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/pages/uploadForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/controller/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/interceptor/AuthorizationInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/aop/Audience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/aop/Audience1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/aop/ConcertConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/aop/TrackCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/aop/face/Performance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo1/BlackDisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo1/CDPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo1/CDPlayerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo1/SgtPeppers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo1/face/CompactDisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo1/face/MediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo2/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo2/DevelopmentProfileConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo2/ProductionProfileConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/IceCream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/MagicBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/MagicExistsCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/Notepad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/StoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/face/Cold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/face/Dessert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/mvc/SpittrWebAppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/mvc/config/RootConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/mvc/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jack/springinaction/knights/Minstrel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/audience.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ioc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/test/ioc/CDPlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/10648.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/10648.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JackMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JackMVC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebContent/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/pages/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/pages/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/pages/nopage.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/pages/nopage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jack/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jack/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DAO/mongodbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/test/dao/mongodbConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DAO/redisConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/test/dao/redisConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jack/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jack/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DAO/mongodbConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DAO/redisConnection.class" beforeDir="false" />
     </list>
     <ignored path="JackMVC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,95 +90,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="96" column="10" lean-forward="true" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="error.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/pages/error.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nopage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/pages/nopage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-609">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-              <folding>
-                <element signature="n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#15;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#16;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#17;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#18;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#19;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#20;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#21;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#22;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#23;n#dependencies#0;n#project#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/controller/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebContent/index.html">
+      <file leaf-file-name="Notepad.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/Notepad.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoppingCart.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/ShoppingCart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,11 +122,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Concept" />
         <option value="HTML File" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>loginForm</find>
+      <find>junit</find>
+      <find>annotation-</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -146,19 +146,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/DAO/mongodbConnection.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DAO/redisConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/WebContent/page/error.html" />
+        <option value="$PROJECT_DIR$/WebContent/pages/error.html" />
+        <option value="$PROJECT_DIR$/WebContent/pages/nopage.html" />
+        <option value="$PROJECT_DIR$/WebContent/pages/welcome.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/org/jack/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/WebContent/page/nopage.html" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/WebContent/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/controller/FileUploadController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/domain/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/WebContent/pages/uploadForm.jsp" />
+        <option value="$PROJECT_DIR$/WebContent/pages/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/interceptor/AuthorizationInterceptor.java" />
         <option value="$PROJECT_DIR$/WebContent/index.html" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/WebContent/pages/loginForm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/knights.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/knights/Minstrel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ConcertConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/face/Performance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/Audience.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/Audience1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/TrackCounter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/face/CompactDisc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/SgtPeppers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/face/MediaPlayer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/org/test/ioc/CDPlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/CDPlayerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/CDPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ioc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/BlackDisc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo1/CDPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo2/DevelopmentProfileConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo2/ProductionProfileConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo2/DataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/profile.xml" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/Condition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/MagicExistsCondition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/face/ConditionContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/MagicBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/face/Cold.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/IceCream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/Notepad.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/StoreService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/audience.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/mvc/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/mvc/config/RootConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/mvc/SpittrWebAppInitializer.java" />
       </list>
     </option>
   </component>
@@ -192,6 +230,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,21 +261,85 @@
             <path>
               <item name="JackMVC" type="b2602c69:ProjectViewProjectNode" />
               <item name="JackMVC" type="462c0819:PsiDirectoryNode" />
-              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JackMVC" type="b2602c69:ProjectViewProjectNode" />
               <item name="JackMVC" type="462c0819:PsiDirectoryNode" />
-              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jack" type="462c0819:PsiDirectoryNode" />
+              <item name="springinaction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JackMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JackMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jack" type="462c0819:PsiDirectoryNode" />
+              <item name="springinaction" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JackMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JackMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jack" type="462c0819:PsiDirectoryNode" />
+              <item name="springinaction" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JackMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JackMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jack" type="462c0819:PsiDirectoryNode" />
+              <item name="springinaction" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JackMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JackMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JackMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JackMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JackMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JackMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JackMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JackMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,12 +348,16 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\10648\IdeaProjects\JackMVC\WebContent" />
+      <recent name="C:\Users\10648\IdeaProjects\JackMVC\WebContent\pages" />
       <recent name="C:\Users\10648\IdeaProjects\JackMVC\WebContent\WEB-INF" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Jack\personal_project\JackMVC\src\main\resources" />
@@ -267,7 +376,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.JackMVC">
+  <component name="RunManager" selected="JUnit.CDPlayerTest.play">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -275,26 +384,72 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="mongodbConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DAO.mongodbConnection" />
+      <option name="MAIN_CLASS_NAME" value="org.test.dao.mongodbConnection" />
       <module name="JackMVC" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DAO.*" />
+          <option name="PATTERN" value="org.test.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="redisConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DAO.redisConnection" />
+      <option name="MAIN_CLASS_NAME" value="org.test.dao.redisConnection" />
       <module name="JackMVC" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DAO.*" />
+          <option name="PATTERN" value="org.test.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration name="CDPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JackMVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.test.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.test.ioc" />
+      <option name="MAIN_CLASS_NAME" value="org.test.ioc.CDPlayerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CDPlayerTest.play" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JackMVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.test.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.test.ioc" />
+      <option name="MAIN_CLASS_NAME" value="org.test.ioc.CDPlayerTest" />
+      <option name="METHOD_NAME" value="play" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -482,9 +637,13 @@
       <item itemvalue="Maven.JackMVC" />
       <item itemvalue="Application.mongodbConnection" />
       <item itemvalue="Application.redisConnection" />
+      <item itemvalue="JUnit.CDPlayerTest" />
+      <item itemvalue="JUnit.CDPlayerTest.play" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CDPlayerTest.play" />
+        <item itemvalue="JUnit.CDPlayerTest" />
         <item itemvalue="Application.redisConnection" />
         <item itemvalue="Application.mongodbConnection" />
       </list>
@@ -508,74 +667,82 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CDPlayerTest - 2018.09.19 at 10h 03m 54s.xml">
+      <configuration name="CDPlayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CDPlayerTest_play - 2018.09.19 at 11h 02m 59s.xml">
+      <configuration name="CDPlayerTest.play" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.32949513" />
-      <window_info id="DB Browser" order="2" />
-      <window_info id="Palette&#9;" order="5" />
-      <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.27231467" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32949513" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.28264463" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32949513" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Designer" order="7" />
-      <window_info content_ui="combo" id="Project" order="3" weight="0.24432677" />
-      <window_info id="Project Explorer" order="0" />
-      <window_info id="Job Explorer" order="1" />
+      <window_info id="Project Explorer" order="1" />
+      <window_info id="Job Explorer" order="2" />
       <window_info anchor="bottom" id="Console" order="1" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="8" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4909091" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32949513" />
+      <window_info id="DB Browser" order="3" weight="0.32980332" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32903782" />
+      <window_info id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3289256" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.63140494" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32949513" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24432677" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3289256" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="5" visible="true" weight="0.43801653" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32903782" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32949513" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="DB Execution Console" order="0" />
       <window_info anchor="right" id="Designer" order="7" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.28264463" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.63140494" />
       <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32949513" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="DB Browser" order="2" />
+      <window_info id="DB Browser" order="3" weight="0.32980332" />
       <window_info id="UI Designer" order="8" />
-      <window_info id="Project Explorer" order="0" />
+      <window_info id="Project Explorer" order="1" />
       <window_info id="Favorites" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32949513" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32949513" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24432677" />
+      <window_info id="Job Explorer" order="2" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.27231467" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info id="Job Explorer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24432677" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32949513" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32903782" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32949513" />
       <window_info id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Console" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.43801653" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3289256" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4909091" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -594,292 +761,495 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/controller/FileUploadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#15;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#16;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#17;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#18;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#19;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#20;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#21;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#22;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#23;n#dependencies#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="-168">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/domain/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3382">
-          <caret line="178" column="20" selection-start-line="178" selection-start-column="20" selection-end-line="178" selection-end-column="20" />
+        <state relative-caret-position="-225">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
+    <entry file="file://$PROJECT_DIR$/WebContent/pages/uploadForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4275">
-          <caret line="225" column="13" selection-start-line="225" selection-start-column="13" selection-end-line="225" selection-end-column="13" />
+        <state relative-caret-position="168">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/WebContent/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="149">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4142">
-          <caret line="218" selection-start-line="218" selection-end-line="218" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12208">
-          <caret line="218" selection-start-line="218" selection-end-line="218" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12208">
-          <caret line="218" selection-start-line="218" selection-end-line="218" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12208">
-          <caret line="218" selection-start-line="218" selection-end-line="218" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10584">
-          <caret line="189" column="20" selection-start-line="189" selection-start-column="20" selection-end-line="189" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9240">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10584">
-          <caret line="189" column="20" selection-start-line="189" selection-start-column="20" selection-end-line="189" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9240">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10864">
-          <caret line="194" column="20" selection-start-line="194" selection-start-column="20" selection-end-line="194" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DAO/redisConnection.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DAO/mongodbConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.0.0/mongo-java-driver-3.0.0.jar!/com/mongodb/MongoClient.class" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/DAO/mongodbConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DAO/redisConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/files/aiYinSiTan.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+        <state relative-caret-position="285">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#15;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#16;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#17;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#18;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#19;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#20;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#21;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#22;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#23;n#dependencies#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/page/nopage.cpt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="96" column="10" lean-forward="true" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/pages/error.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="247">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/pages/nopage.html">
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-609">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="296">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/pages/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software_libary/Java/jdk1.8.0_144/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/pages/loginForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/interceptor/AuthorizationInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/knights.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/aop/face/Performance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/aop/ConcertConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/aop/Audience1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/aop/TrackCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/aop/Audience.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/knights/Minstrel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/test/q.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/test/dao/redisConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo1/face/MediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo1/face/CompactDisc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="104" column="21" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+          <folding>
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#15;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#16;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#17;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#18;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#19;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#20;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#21;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#22;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#23;n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/test/ioc/CDPlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo1/BlackDisc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo1/CDPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo1/SgtPeppers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo1/CDPlayerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo2/DevelopmentProfileConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="20" selection-start-line="20" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ioc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo2/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="84" column="21" lean-forward="true" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo2/ProductionProfileConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/profile.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/face/ConditionContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.5.RELEASE/spring-context-4.0.5.RELEASE.jar!/org/springframework/context/annotation/ConditionContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/MagicExistsCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.5.RELEASE/spring-context-4.0.5.RELEASE.jar!/org/springframework/context/annotation/Conditional.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/MagicBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/IceCream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/face/Cold.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/face/Dessert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/StoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/audience.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/mvc/config/RootConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/mvc/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/mvc/SpittrWebAppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/Notepad.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jack/springinaction/demo/ioc/demo3/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

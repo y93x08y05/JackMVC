@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd ">
+    <bean id="compactDisc" class="org.jack.springinaction.demo.ioc.demo1.BlackDisc">
+        <constructor-arg value="Sgt. Pepper's Lonely Hearts Club Band">
+
+        </constructor-arg>
+        <!--value属性表明给定的值要以字面量的形式注入到构造器中、-->
+        <constructor-arg value="The Beatles">
+
+        </constructor-arg>
+        <constructor-arg>
+            <!--list元素是constructor-arg的子元素，表明一个包含值的列表传递到构造器中-->
+            <list>
+                <!--value元素用来指定列表中的每个元素-->
+                <value>Sgt. Pepper's Lonely Hearts Club Band</value>
+                <value>With a Little Help from My Friends</value>
+                <value>Lucy in the Sky with Diamonds</value>
+                <value>Getting Better</value>
+                <value>Fixing a Hole</value>
+            </list>
+        </constructor-arg>
+    </bean>
+    <bean id="cdPlayer" class="org.jack.springinaction.demo.ioc.demo1.CDPlayer">
+        <constructor-arg ref="compactDisc">
+
+        </constructor-arg>
+        <property name="compactDisc" ref="compactDisc"/>
+    </bean>
+</beans>

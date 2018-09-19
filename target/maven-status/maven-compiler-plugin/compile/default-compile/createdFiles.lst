@@ -1,1 +1,7 @@
+org\jack\controller\BookController.class
+org\jack\controller\FileUploadController.class
+org\jack\interceptor\AuthorizationInterceptor.class
 org\jack\controller\HelloController.class
+org\jack\controller\UserController.class
+org\jack\domain\Book.class
+org\jack\domain\User.class

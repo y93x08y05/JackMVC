@@ -1,4 +1,4 @@
-package DAO;
+package org.test.dao;
 
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoDatabase;
