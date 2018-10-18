@@ -14,4 +14,8 @@
             <aop:around pointcut-ref="performance" method="watchPerformance"/>
         </aop:aspect>
     </aop:config>
+    <bean id="cart" class="org.jack.springinaction.demo.ioc.demo3.ShoppingCart" scope="session">
+        <!--默认proxy-target-class为true，选择CGLIB创建目标类的代理-->
+        <aop:scoped-proxy proxy-target-class="false"/>
+    </bean>
 </beans> 
